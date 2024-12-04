@@ -1,16 +1,17 @@
 ### Dates and location
-#### April 9-11, 2025 &#9830; Arizona State University Barrett & O'Connor Washington Center, Washington D.C., 1800 I Street, NW
-#### BlueSky: #scicodes  
+#### April 9-11, 2025 &#9830 Arizona State University Barrett & O'Connor Washington Center
+#### 1800 I Street, NW, Washington DC 20006
+#### BlueSky: #scicodes https://bsky.app/profile/scicodes.bsky.social
 
 ### Purpose
 
-The 2025 SciCodes Scientific Software Registry Collaboration Workshop, to be held April 9-11, 2025 in Washington, DC, will bring together managers and editors of a diverse set of scientific software registries and repositories. It will be a small event with 20 invited participants due to the workshop’s needs and goals, venue capacity, and funding. The Alfred P. Sloan Foundation has provided funding for the workshop and symposium, and the University of Arizona will providing the Washington, DC venue.
+The 2025 SciCodes Scientific Software Registry Collaboration Workshop, to be held April 9-11, 2025 in Washington, DC, will bring together managers and editors of a diverse set of scientific software registries and repositories. It will be a small event with 20 invited participants due to the workshop’s needs and goals, venue capacity, and funding. The Alfred P. Sloan Foundation has provided funding for the workshop and symposium, and Arizona State University is providing access to the Washington, DC venue.
 
-A half-day pre-workshop symposium will reflect on the current state of the research software ecosystem. Through a keynote presentation and panel and open discussions with attendees, it will help better refine the tasks and final products of the in-person workshop. The symposium has greater in-person capacity (up to 50) and will also offer remote attendance.
+A half-day pre-workshop symposium will reflect on the current state of the research software ecosystem. A keynote presentation and open panel discussion with attendees will help refine the tasks and final products of the in-person workshop. The symposium has greater in-person capacity (up to 50) and will also offer remote attendance.
 
 ### Mini-symposium
 
-A hybrid mini-symposium will reflect on the current state of the research software ecosystem. This will help better refine the goals of and final products from the in-person workshop 
+A hybrid mini-symposium will reflect on the current state and future trajectories of the research software ecosystem. This will help refine the goals of and final products from the in-person workshop.
 
 The half-day symposium invites a wider range of diverse voices from the research software engineering (RSEng), funder, and science communities we serve, and will focus on the long term vision and aspirations for research software and computational science (e.g., frictionless reuse). This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. The symposium will offer remote access, and will include a keynote, panel discussion, and facilitated open discussion with all attendees, both in-person and remote.
 
