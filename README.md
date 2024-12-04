@@ -14,7 +14,7 @@ The workshop will also be preceded by a half-day pre-workshop symposium with up 
 
 ### Mini-symposium
 
-A **half-day symposium on April 9th, 2025** will invite diverse voices from the research software engineering (RSEng), funder, and science communities, to reflect and focus on the long term vision for research software and computational science. This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. 
+A **half-day symposium on April 9th, 2025** will invite diverse voices from the research software engineering (RSEng), funder, and science communities, to reflect and focus on long term vision and aspirations for research software and computational science. This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. 
 
 The symposium will offer remote access via Zoom and include a **keynote address, panel discussion, and facilitated open discussion** with all attendees, both in-person and remote.
 
@@ -49,7 +49,7 @@ The symposium will offer remote access via Zoom and include a **keynote address,
 
 This workshop is made possible by the generous financial support of the [Alfred P. Sloan Foundation](https://sloan.org/) as well as logistical support from [Arizona State University](https://www.asu.edu).
 
-<a href="https://sloan.org/"><img class="centered" height="150" src="assets/logos/sloan-logo.png"></a>
+<a href="https://sloan.org/"><img class="centered" height="100" src="assets/logos/sloan-logo.png"></a>
 
-<a href="https://www.asu.edu/"><img class="centered" height="150" src="assets/logos/asu-logo.png"></a>
+<a href="https://www.asu.edu/"><img class="centered" height="100" src="assets/logos/asu-logo.png"></a>
 
