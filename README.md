@@ -1,20 +1,22 @@
-### 2025 SciCodes Scientific Software Registry Collaboration Workshop 
+### SciCodes 2025 Collaboration Workshop 
 #### Dates and location
-#### April 9-11, 2025 &#9830 Arizona State University Barrett & O'Connor Washington Center
-#### 1800 I Street, NW, Washington DC 20006
-#### BlueSky: #scicodes https://bsky.app/profile/scicodes.bsky.social
+#### April 9-11, 2025 &#9830; [Arizona State University Barrett &amp; O'Connor Washington Center](https://washingtondc.asu.edu/barrett-and-oconnor-center)
+#### [1800 I Street, NW, Washington DC 20006](https://maps.app.goo.gl/Ef8YeuvQESn8fhqA6)
+#### BlueSky: [SciCodes](https://bsky.app/profile/scicodes.bsky.social) #scicodes
 
 ### Purpose
 
-The 2025 SciCodes Scientific Software Registry Collaboration Workshop, to be held April 9-11, 2025 in Washington, DC, will bring together managers and editors of a diverse set of scientific software registries and repositories. It will be a small event with 20 invited participants due to the workshop’s needs and goals, venue capacity, and funding. The Alfred P. Sloan Foundation has provided funding for the workshop and symposium, and Arizona State University is providing access to the Washington, DC venue.
+The [Consortium of Scientific Software Registries and Repositories (SciCodes)](https://scicodes.net) 2025 Collaboration Workshop, scheduled for **April 9-11, 2025 in Washington, DC**, will bring together editors and maintainers of diverse scientific software registries and repositories alongside open research software advocates and practitioners. This will be a small event with 20 invited participants due to the workshop’s needs and goals, venue capacity, and available funding. The workshop's goals are to: (1) improve adoption of and revisit our published [best practices for research software registries and repositories](https://doi.org/10.7717/peerj-cs.1023), (2) enable software search and discovery over multiple member resources through [interoperable metadata](https://codemeta.github.io), and (3) advance published research software quality through supporting cyberinfrastructure that help communities adopt FAIR and frictionless software engineering practices.
 
-A half-day pre-workshop symposium will reflect on the current state of the research software ecosystem. A keynote presentation and open panel discussion with attendees will help refine the tasks and final products of the in-person workshop. The symposium has greater in-person capacity (up to 50) and will also offer remote attendance.
+The Alfred P. Sloan Foundation has provided funding for the workshop and symposium, and Arizona State University is providing access to its event facilities within the [Barrett &amp; O'Connor Washington Center](https://washingtondc.asu.edu/barrett-and-oconnor-center).
+
+The workshop will also be preceded by a half-day pre-workshop symposium with up to 50 participants to reflect on the current state and future trajectories of the research software ecosystem. 
 
 ### Mini-symposium
 
-A hybrid mini-symposium will reflect on the current state and future trajectories of the research software ecosystem. This will help refine the goals of and final products from the in-person workshop.
+A **half-day symposium on April 9th, 2025** will invite diverse voices from the research software engineering (RSEng), funder, and science communities, to reflect and focus on the long term vision for research software and computational science. This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. 
 
-The half-day symposium invites a wider range of diverse voices from the research software engineering (RSEng), funder, and science communities we serve, and will focus on the long term vision and aspirations for research software and computational science (e.g., frictionless reuse). This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. The symposium will offer remote access, and will include a keynote, panel discussion, and facilitated open discussion with all attendees, both in-person and remote.
+The symposium will offer remote access via Zoom and include a **keynote address, panel discussion, and facilitated open discussion** with all attendees, both in-person and remote.
 
 ### Organizers
 
@@ -45,7 +47,7 @@ The half-day symposium invites a wider range of diverse voices from the research
 
 ### Funding
 
-This workshop is made possible by the generous support of the [Alfred P. Sloan Foundation](https://sloan.org/) and [Arizona State University](https://www.asu.edu).
+This workshop is made possible by the generous financial support of the [Alfred P. Sloan Foundation](https://sloan.org/) as well as logistical support from [Arizona State University](https://www.asu.edu).
 
 <a href="https://sloan.org/"><img class="centered" height="150" src="assets/logos/sloan-logo.png"></a>
 
