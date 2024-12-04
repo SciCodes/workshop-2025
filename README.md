@@ -19,7 +19,7 @@ The half-day symposium invites a wider range of diverse voices from the research
 - [Allen Lee, Arizona State University](https://orcid.org/0000-0002-6523-6079)
 - [Alice Allen, ASCL/UMD](https://orcid.org/0000-0003-3477-2845)
 - [Tom Morrell, Caltech](https://orcid.org/0000-0001-9266-5146)
-- [Lorraine Hwang, University of California-Davis](https://orcid.org/0000-0002-1021-3101)
+- [Lorraine Hwang, University of California Davis](https://orcid.org/0000-0002-1021-3101)
 
 <!--
 ### [Agenda](Agenda.md)
