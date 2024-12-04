@@ -1,4 +1,5 @@
-### Dates and location
+### 2025 SciCodes Scientific Software Registry Collaboration Workshop 
+#### Dates and location
 #### April 9-11, 2025 &#9830 Arizona State University Barrett & O'Connor Washington Center
 #### 1800 I Street, NW, Washington DC 20006
 #### BlueSky: #scicodes https://bsky.app/profile/scicodes.bsky.social
