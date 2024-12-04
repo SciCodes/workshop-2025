@@ -45,7 +45,9 @@ The half-day symposium invites a wider range of diverse voices from the research
 
 ### Funding
 
-This workshop is made possible by support from the [Alfred P. Sloan Foundation](https://sloan.org/) and logistical support from Arizona State University; we are grateful for their support.
+This workshop is made possible by the generous support of the [Alfred P. Sloan Foundation](https://sloan.org/) and [Arizona State University](https://www.asu.edu).
 
-<a href="https://sloan.org/"><img src="Sloan-Logo-primary-black-demo.png"></a>
+<a href="https://sloan.org/"><img class="centered" height="150" src="assets/logos/sloan-logo.png"></a>
+
+<a href="https://www.asu.edu/"><img class="centered" height="150" src="assets/logos/asu-logo.png"></a>
 
