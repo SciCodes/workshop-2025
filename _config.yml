@@ -1,5 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 title: SciCodes Collaboration Workshop
 description: A Sloan Foundation-funded workshop for editors & maintainers of academic discipline & institutional software registries & repositories
+repository: SciCodes/workshop-2025
 plugins:
   - jekyll-remote-theme
