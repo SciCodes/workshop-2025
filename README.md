@@ -12,7 +12,7 @@ The Alfred P. Sloan Foundation has provided funding for the workshop and symposi
 
 The workshop will also be preceded by a half-day pre-workshop symposium with up to 50 participants to reflect on the current state and future trajectories of the research software ecosystem. 
 
-### Mini-symposium
+### Symposium
 
 A **half-day symposium on April 9th, 2025** will invite diverse voices from the research software engineering (RSEng), funder, and science communities, to reflect and focus on long term vision and aspirations for research software and computational science. This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. 
 
