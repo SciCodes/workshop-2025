@@ -14,16 +14,21 @@ The workshop will also be preceded by a half-day pre-workshop symposium with up 
 
 ### Symposium
 
-A **half-day symposium on April 9th, 2025** will invite diverse voices from the research software engineering (RSEng), funder, and science communities, to reflect and focus on long term vision and aspirations for research software and computational science. This will help inform subsequent workshop activities and provide concrete guidance on development priorities for our individual science gateways, registries, and repositories. 
+SciCodes is holding a half-day symposium on April 9, 2025 to invite the research software engineering (RSEng), funder, and science communities to reflect and focus on a long term visions and aspirations for research software and computational science.
 
-The symposium will offer remote access via Zoom and include a **keynote address, panel discussion, and facilitated open discussion** with all attendees, both in-person and remote.
+This symposium will provide concrete guidance on development priorities for science gateways and research software registries and repositories; it will also help guide the work that SciCodes participants do in a follow-up workshop.
+
+The symposium will be a hybrid event held in Washington DC (limit of 50 in-person attendees) with remote participation via Zoom and include a keynote address by [Katherine Skinner](https://investinopen.org/about/team/katherine/) from [Invest in Open Infrastructure](https://investinopen.org/about/), a panel discussion with [Daniel Katz](https://danielskatz.org/) (NCSA, UIllinois-Urbana) and [Hervé Ménager](https://research.pasteur.fr/fr/member/herve-menager/) (Institut Pasteur), and a facilitated open discussion with all attendees, both in-person and remote.
+
+To participate in this symposium and lend your voice to improving the research software ecosystem, [please register here](https://docs.google.com/forms/d/e/1FAIpQLSfTxuCJjmlAyc0S6odgVQdleYrwR1j_geE20HbVGJw5MXnOYA/viewform)! And please share this with any others who may be interested.
 
 ### Organizers
 
 - [Allen Lee, Arizona State University](https://orcid.org/0000-0002-6523-6079)
 - [Alice Allen, ASCL/UMD](https://orcid.org/0000-0003-3477-2845)
-- [Tom Morrell, Caltech](https://orcid.org/0000-0001-9266-5146)
+- [Daniel Garijo, Universidad Politécnica de Madrid](https://orcid.org/0000-0003-0454-7145)
 - [Lorraine Hwang, University of California Davis](https://orcid.org/0000-0002-1021-3101)
+- [Tom Morrell, Caltech](https://orcid.org/0000-0001-9266-5146)
 
 <!--
 ### [Agenda](Agenda.md)
