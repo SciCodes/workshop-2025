@@ -2,9 +2,9 @@ services:
   site:
     build: .
     image: scicodes-2025-site:latest
-    entrypoint: ["bundle", "exec", "jekyll", "serve", "--host=0.0.0.0", "--incremental"]
+    entrypoint: ["jekyll", "serve", "-H", "0.0.0.0", "--incremental"]
     ports: 
       - 4000:4000
     volumes:
       - .:/srv/jekyll:Z
-      - ./vendor/bundle:/usr/local/bundle:Z
+        # - ./vendor/bundle:/usr/local/bundle:Z

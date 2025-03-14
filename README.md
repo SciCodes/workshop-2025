@@ -1,26 +1,27 @@
-### SciCodes 2025 Collaboration Workshop 
-#### Dates and location
-#### April 10-11, 2025 &#9830; [Arizona State University Barrett &amp; O'Connor Washington Center](https://washingtondc.asu.edu/barrett-and-oconnor-center)
-#### [1800 I Street, NW, Washington DC 20006](https://maps.app.goo.gl/Ef8YeuvQESn8fhqA6)
+### 2nd SciCodes Collaboration Workshop
 #### BlueSky: [SciCodes](https://bsky.app/profile/scicodes.bsky.social) #scicodes
 
-### Purpose
+The [Consortium of Scientific Software Registries and Repositories (SciCodes)](https://scicodes.net) 2nd Collaboration Workshop, scheduled for **April 10-11, 2025 in Washington, DC**, will bring together editors and maintainers from a wide range of scientific software registries and repositories as well as open research software advocates and expert practitioners.
 
-The [Consortium of Scientific Software Registries and Repositories (SciCodes)](https://scicodes.net) 2025 Collaboration Workshop, scheduled for **April 10-11, 2025 in Washington, DC**, will bring together editors and maintainers of diverse scientific software registries and repositories alongside open research software advocates and practitioners. This will be a small event with 20 invited participants due to the workshop’s needs and goals, venue capacity, and available funding. The workshop's goals are to: (1) improve adoption of and revisit our published [best practices for research software registries and repositories](https://doi.org/10.7717/peerj-cs.1023), (2) enable software search and discovery over multiple member resources through [interoperable metadata](https://codemeta.github.io), and (3) advance published research software quality through supporting cyberinfrastructure that help communities adopt FAIR and frictionless software engineering practices.
+The workshop's primary goals include: 
 
-The Alfred P. Sloan Foundation has provided funding for the workshop and symposium, and Arizona State University is providing access to its event facilities within the [Barrett &amp; O'Connor Washington Center](https://washingtondc.asu.edu/barrett-and-oconnor-center).
+1. *improve* adoption of and revisit [best practices for research software registries and repositories](https://doi.org/10.7717/peerj-cs.1023)
+2. *enable* federated software search and discovery over multiple member resources by exposing [curated, interoperable metadata](https://codemeta.github.io)
+3. *advance* published research software quality through cyberinfrastructure that helps research communities adopt FAIR and frictionless software engineering practices
+
+The [Alfred P. Sloan Foundation](https://sloan.org) has generously provided funding for the workshop and symposium, and [Arizona State University](https://www.asu.edu) is providing logistical support and access to its event facilities at the [Barrett &amp; O'Connor Washington Center](https://washingtondc.asu.edu/barrett-and-oconnor-center).
 
 The workshop will also be preceded by a half-day pre-workshop symposium on April 9, 2025, with up to 50 participants to reflect on the current state and future trajectories of the research software ecosystem. 
 
 ### Symposium
 
-SciCodes is holding a half-day symposium on April 9, 2025 to invite the research software engineering (RSEng), funder, and science communities to reflect and focus on a long term visions and aspirations for research software and computational science.
+SciCodes is also hosting a [half-day symposium](symposium.html) on April 9, 2025, "*Building the Future of Research Software*", to invite the research software engineering (RSEng), funder, and science communities to consider challenges and long-term aspirations for research software and computationally assisted science.
 
-This symposium will provide concrete guidance on development priorities for science gateways and research software registries and repositories; it will also help guide the work that SciCodes participants do in a follow-up workshop.
+For more details including how to register, please visit the [symposium page](symposium.html)
 
-The symposium will be a hybrid event held in Washington DC (limit of 50 in-person attendees) with remote participation via Zoom and include a keynote address by [Katherine Skinner](https://investinopen.org/about/team/katherine/) from [Invest in Open Infrastructure](https://investinopen.org/about/), a panel discussion with [Daniel S. Katz](https://danielskatz.org/) ([NCSA, U. Illinois Urbana-Champaign](https://www.ncsa.illinois.edu/)) and [Hervé Ménager](https://research.pasteur.fr/fr/member/herve-menager/) ([Institut Pasteur](https://www.pasteur.fr/)), and a facilitated open discussion with all attendees, both in-person and remote.
+### Workshop
 
-To participate in this symposium and lend your voice to improving the research software ecosystem, [please register here](https://docs.google.com/forms/d/e/1FAIpQLSfTxuCJjmlAyc0S6odgVQdleYrwR1j_geE20HbVGJw5MXnOYA/viewform)! And please share with any others who may be interested.
+For full workshop details, please visit [the workshop page](workshop.html).
 
 ### Organizers
 
@@ -57,4 +58,3 @@ This workshop is made possible by the generous financial support of the [Alfred 
 <a href="https://sloan.org/"><img class="centered" height="100" src="assets/logos/sloan-logo.png"></a>
 
 <a href="https://www.asu.edu/"><img class="centered" height="100" src="assets/logos/asu-logo.png"></a>
-

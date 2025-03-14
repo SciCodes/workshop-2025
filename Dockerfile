@@ -1,33 +1,28 @@
 FROM ruby:3-bookworm
 
-ENV SETUPDIR=/setup
-WORKDIR ${SETUPDIR}
+ENV APPDIR=/srv/jekyll
+WORKDIR ${APPDIR}
 ARG GEMFILE_DIR=.
 COPY $GEMFILE_DIR/Gemfile* $GEMFILE_DIR/packages* ./
 
 # Install build dependencies
 RUN set -eux; \
     apt update && \
-    apt upgrade -y
+    apt upgrade -y && \
+    apt install -y ruby-dev
 
-# Install Bundler
-RUN set -eux; gem install bundler
 
-# Install gems from `Gemfile` via Bundler
-RUN set -eux; bundler install
+RUN set -eux; bundle config build.nokogiri --use-system-libraries && \
+    bundle install
 
-# Remove build dependencies
-RUN set -eux; apt clean
-
-# Clean up
-WORKDIR /srv/jekyll
+# Remove build dependencies + cleanup
+COPY . ${APPDIR}
 RUN set -eux; \
+    apt clean; \
     rm -rf \
-        ${SETUPDIR} \
         /usr/gem/cache \
         /root/.bundle/cache \
     ;
 
 EXPOSE 4000
-ENTRYPOINT ["bundle", "exec", "jekyll"]
-CMD ["--version"]
+CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0"]
