@@ -30,6 +30,10 @@
       </nav>
     </header>
 
+    <div class="sidebar">
+      {% include toc.html html=content h_max=2 %}
+    </div>
+
     <main id="content" class="main-content" role="main">
       {{ content }}
 
