@@ -17,9 +17,9 @@ Each panelist will give a brief 5-minute presentation; after all panelists have 
 
 We welcome your voice, [please register here](https://forms.gle/cDg5CV54ovYEZAUx5) to contribute to our efforts to improve the research software ecosystem!
 
-### Agenda (Tentative)
+### Draft Agenda
 
-0800 Networking / Breakfast
+0800 Arrival / Breakfast
 
 0845 Introduction and Opening Remarks
 
