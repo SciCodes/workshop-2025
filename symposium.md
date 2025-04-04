@@ -20,17 +20,19 @@ Each panelist will give a brief 5-minute presentation; after all panelists have 
 
 We welcome your voice, [please register here](https://forms.gle/cDg5CV54ovYEZAUx5) to contribute to our efforts to improve the research software ecosystem!
 
-## Draft Agenda
+## Agenda
 
 0800 Arrival / Breakfast
 
-0845 Introduction and Opening Remarks
+0900 Introduction and Opening Remarks
 
-0900 Keynote: Dr. Katherine Skinner, Invest in Open Infrastructure
+0910 Keynote: Dr. Katherine Skinner, Invest in Open Infrastructure
 
-1000 Coffee / Tea Break
+1000 QA with audience
 
-1020 Panel Discussion: "Building the Future of Research Software"
+1015 Break
+
+1030 Panel Discussion: "Building the Future of Research Software" panelist presentations
 
 - Moderator: [Daniel S. Katz](https://danielskatz.org/) ([NCSA, U. Illinois Urbana-Champaign](https://www.ncsa.illinois.edu/)) 
 - [Ana Trišović](https://anatrisovic.com/) ([JOSS](https://joss.theoj.org/), [MIT](https://www.csail.mit.edu/))
@@ -38,13 +40,13 @@ We welcome your voice, [please register here](https://forms.gle/cDg5CV54ovYEZAUx
 - [Sandra Gesing](http://sandra-gesing.com/) ([US-RSE](https://us-rse.org), [SDSC](https://www.sdsc.edu)) 
 - [Tom Morrell](https://bsky.app/profile/tmorrell.bsky.social) ([Caltech Library](http://data.caltech.edu/), [SciCodes](https://scicodes.net))
 
-1100 Facilitated Open Discussion
+1100 Facilitated Panel Discussion
 
 1200 Summary and Closing Remarks
 
 ## Travel
 
 - [Traveling to ASU Barrett & O'Connor Center in-person](https://washingtondc.asu.edu/barrett-and-oconnor-center#webspark-anchor-link--22)
-- check out the [logistics page for more travel details](logistics.html)
+- see [our logistics page for more travel details](logistics.html)
 - Zoom details will be emailed to registered online participants
 
