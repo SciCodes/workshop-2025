@@ -53,14 +53,14 @@ The Barrett & O’Connor Washington Center does not have on-site parking, and st
 
 Ronald Reagan (DCA) is the closest airport and a taxi ride from the airport to Hotel Lombardy will cost around $20-30 depending on traffic.
 
-Guests can also use the Metro - take the [Blue Line towards Largo Town Center and get off at the Farragut West station (7 station stops)](https://maps.app.goo.gl/7aLCY9b6v7WmUwK77).
+
+Guests can also use the Metro - take the Blue Line towards Largo Town Center and get off at the [Foggy Bottom - GWU](https://maps.app.goo.gl/7bHCbFdswKLXpTxc7) for a 7 min walk east to the Hotel Lombardy or [Farragut West station (7 station stops)](https://maps.app.goo.gl/7aLCY9b6v7WmUwK77) if you are heading directly to the workshop / symposium venue.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d24848.620250571537!2d-77.06693355271308!3d38.87646794289892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x89b7b731402fe095%3A0x4168af016d076bad!2sRonald%20Reagan%20Washington%20National%20Airport%20(DCA)%2C%20Ronald%20Reagan%20Washington%20National%20Airport%20Access%20Road%2C%20Arlington%2C%20VA!3m2!1d38.851242!2d-77.04023149999999!4m5!1s0x89b7b7b0b7f86313%3A0x2b22bee637998511!2sHotel%20Lombardy%2C%20Pennsylvania%20Avenue%20Northwest%2C%20Washington%2C%20DC!3m2!1d38.9014691!2d-77.0459338!5e0!3m2!1sen!2sus!4v1742080537939!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 #### From Dulles International Airport (IAD)
 
-[Take the Silver line from IAD to the Foggy Bottom - GWU stop](https://maps.app.goo.gl/cQon4YNawGdPdMHW6), from there it
-is a ~7 min walk to Hotel Lombardy.
+[Take the Silver line from IAD to the Foggy Bottom - GWU stop](https://maps.app.goo.gl/cQon4YNawGdPdMHW6), from there it is a ~7 min walk to Hotel Lombardy.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d99332.12692300859!2d-77.33402237158954!3d38.92102967608422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x89b64740174eb057%3A0x8e01cb201080601d!2sDulles%20International%20Airport%20(IAD)%2C%201%20Saarinen%20Cir%2C%20Dulles%2C%20VA%2020166!3m2!1d38.9522483!2d-77.45788859999999!4m5!1s0x89b7b7b0b7f86313%3A0x2b22bee637998511!2sHotel%20Lombardy%2C%20Pennsylvania%20Avenue%20Northwest%2C%20Washington%2C%20DC!3m2!1d38.9014691!2d-77.0459338!5e0!3m2!1sen!2sus!4v1742080304560!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
