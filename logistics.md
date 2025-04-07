@@ -3,9 +3,17 @@
 
 [Arizona State University Barrett &amp; O'Connor Washington Center](https://washingtondc.asu.edu/barrett-and-oconnor-center)
 
-1800 I Street, NW, Washington, D.C. 20006
+[1800 I Street, NW, Washington, D.C. 20006](https://maps.app.goo.gl/U7vHY2MB4mCUMBrq5)
 
-Event Pavilion - 8th Floor
+**Event Pavilion - 8th Floor**
+
+## [Current DC Weather Conditions](https://forecast.weather.gov/MapClick.php?lat=38.8920621&lon=-77.0199124){:target="_blank"}
+
+<div id="ww_961b5152bcd8c" v='1.3' loc='id'
+a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":["wl3907"],"font":"Arial","sl_ics":"one_a","sl_sot":"fahrenheit","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>More
+forecasts: <a href="https://oneweather.org/new_york_city/30_days/" id="ww_961b5152bcd8c_u" target="_blank">New York
+weather 30 days</a></div><script async src="https://app3.weatherwidget.org/js/?id=ww_961b5152bcd8c"></script>
+
 
 ## Lodging
 
@@ -17,8 +25,8 @@ It's a short [5 min. walk](https://maps.app.goo.gl/XBdaZwRVbCoq6Awq6) from Hotel
 
 There are a plethora of dining options around, we've highlighted a few in the google maps below, if you find anything else you'd like to share let us know so we can add it to the list.
 
-- [Western Market](https://www.westernmarketdc.com/)
-- [Founding Farmers](https://www.wearefoundingfarmers.com/location/dc/)
+- [Western Market](https://www.westernmarketdc.com/){:target="_blank"}
+- [Founding Farmers](https://www.wearefoundingfarmers.com/location/dc/){:target="_blank"}
 - [Shared Places Map](https://maps.app.goo.gl/PzsXF1ZjBcKxmNQc9){:target="_blank"}
 
 ## Travel

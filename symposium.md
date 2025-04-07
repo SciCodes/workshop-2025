@@ -40,7 +40,7 @@ We welcome your voice, [please register here](https://forms.gle/cDg5CV54ovYEZAUx
 - [Sandra Gesing](http://sandra-gesing.com/) ([US-RSE](https://us-rse.org), [SDSC](https://www.sdsc.edu)) 
 - [Tom Morrell](https://bsky.app/profile/tmorrell.bsky.social) ([Caltech Library](http://data.caltech.edu/), [SciCodes](https://scicodes.net))
 
-1100 Facilitated Panel Discussion
+1100 Facilitated Panel Discussion with Audience
 
 1200 Summary and Closing Remarks
 
