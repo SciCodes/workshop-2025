@@ -1,0 +1,100 @@
+# =============================================================================
+# GitHub Pages: build Jekyll site, validate links, deploy
+# =============================================================================
+# "Next generation" Pages deployment via GitHub Actions (actions/deploy-pages),
+# giving full control over the build instead of the legacy auto-Jekyll mode.
+# - Builds the site with Jekyll (baseurl from _config.yml)
+# - Runs htmlproofer to catch broken links / missing alt text
+# - Uploads the _site artifact and deploys via actions/deploy-pages
+# - PRs build + validate but do NOT deploy
+#
+# Actions are pinned by commit SHA for supply-chain security, with the
+# version tag in a comment for readability. Update SHAs deliberately.
+# =============================================================================
+---
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Deploy job needs write access to Pages + id-token for OIDC + actions: read
+# for artifact resolution (deploy-pages@v4+ deploys by artifact ID).
+# Build job only needs read access to contents.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: read
+
+# Allow one concurrent Pages deployment; cancel in-progress runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        # v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+
+      - name: Setup Ruby
+        # v1.321.0
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true # runs bundle install, caches based on Gemfile.lock
+
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Validate links with htmlproofer
+        # html-proofer 5.x flag names. Internal-link focus for a stable CI gate:
+        # --allow-hash-href: site TOC uses #anchor links (default: true)
+        # --assume-extension=.html: treat extensionless internal links as .html
+        # --ignore-empty-alt: remote_theme may emit <img> with empty alt (default: true)
+        # --ignore-missing-alt: logo <img> tags without alt attribute (default: false)
+        # --disable-external: skip external reachability (flaky in CI; informational links)
+        # --no-enforce-https: don't gate on http-vs-https (content decision, not CI)
+        # --swap-urls: strip baseurl prefix so internal links resolve on the built _site
+        run: |
+          bundle exec htmlproofer _site \
+            --allow-hash-href \
+            --assume-extension=.html \
+            --ignore-empty-alt \
+            --ignore-missing-alt \
+            --disable-external \
+            --no-enforce-https \
+            --swap-urls '^/workshop-2025/:/'
+
+      - name: Upload Pages artifact
+        # v5.0.0
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+        with:
+          path: _site
+
+  deploy:
+    # Only deploy on push to a protected branch or manual dispatch — never PRs.
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        # v5.0.0
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
+        id: deployment

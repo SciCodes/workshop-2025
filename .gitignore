@@ -78,7 +78,8 @@ vendor/
 ### Ruby ###
 *.gem
 *.rbc
-Gemfile.lock
+# Gemfile.lock IS committed for GitHub Pages build reproducibility
+!Gemfile.lock
 /.config
 /coverage/
 /InstalledFiles

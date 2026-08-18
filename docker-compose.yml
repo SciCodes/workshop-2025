@@ -1,10 +1,57 @@
+# =============================================================================
+# Docker Compose for SciCodes Workshop 2025 Site
+# =============================================================================
+# Modern configuration with health checks, restart policies, and environment
+# =============================================================================
+
 services:
   site:
-    build: .
+    # Build configuration
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Image name (optional - omitted for pure build mode)
     image: scicodes-2025-site:latest
-    entrypoint: ["jekyll", "serve", "-H", "0.0.0.0", "--incremental"]
-    ports: 
-      - 4000:4000
+    
+    # Restart policy: restart on failure, max 5 attempts
+    restart: on-failure:5
+    
+    # Environment variables for Jekyll
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
+
+    # Serve at root for local dev (overrides _config.yml baseurl /workshop-2025
+    # so http://localhost:4000/ works directly; production builds keep baseurl).
+    command: >-
+      bundle exec jekyll serve -H 0.0.0.0 --livereload --baseurl ""
+
+    # Health check: verify Jekyll is serving at root (dev baseurl is empty)
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+    # Port mapping
+    ports:
+      - "4000:4000"
+    
+    # Volume mounts for development (live reload with mounted source)
     volumes:
       - .:/srv/jekyll:Z
-        # - ./vendor/bundle:/usr/local/bundle:Z
+      # Persist bundle cache to avoid reinstalling gems on each rebuild
+      - bundle-cache:/usr/local/bundle
+    
+    # Security: read-only root filesystem with tmpfs for writable areas
+    # (commented out - may need adjustment for incremental builds)
+    # read_only: true
+    # tmpfs:
+    #   - /srv/jekyll/.jekyll-cache
+    #   - /tmp
+
+# Named volume for bundler cache persistence
+volumes:
+  bundle-cache:
+    driver: local
