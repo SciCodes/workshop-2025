@@ -4,45 +4,87 @@
     <meta charset="UTF-8">
 
 {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#1e293b">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <a id="skip-to-content" href="#content">Skip to content</a>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <h3 class="project-link"><a href="symposium.html">Building the Future of Research Software: A SciCodes Symposium | April 9, 2025, Washington DC &amp; online</a></h3>
-      <h3 class="project-link"><a href="workshop.html">2nd SciCodes Collaboration Workshop | April 10-11, 2025, Washington DC</a></h3>
-      <nav>
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <p class="site-brand"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+        <h1 class="page-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <p class="page-description">{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+
+        <div class="event-links">
+          <a class="event-card" href="{{ 'symposium.html' | relative_url }}">
+            <span class="event-label">Symposium</span>
+            <span class="event-title">Building the Future of Research Software</span>
+            <span class="event-meta">April 9, 2025 &middot; Washington DC &amp; online</span>
+          </a>
+          <a class="event-card" href="{{ 'workshop.html' | relative_url }}">
+            <span class="event-label">Workshop</span>
+            <span class="event-title">2nd SciCodes Collaboration Workshop</span>
+            <span class="event-meta">April 10&ndash;11, 2025 &middot; Washington DC</span>
+          </a>
+        </div>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="https://scicodes.github.io/workshop-2025/">Home</a></li>
-          <li><a href="symposium.html">Symposium</a></li>
-          <li><a href="workshop.html">Workshop</a></li>
-          <li><a href="logistics.html">Logistics</a></li>
+          <li class="{% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+            <a href="{{ '/' | relative_url }}">Home</a>
+          </li>
+          <li class="{% if page.url == '/symposium.html' %}active{% endif %}">
+            <a href="{{ 'symposium.html' | relative_url }}">Symposium</a>
+          </li>
+          <li class="{% if page.url == '/workshop.html' %}active{% endif %}">
+            <a href="{{ 'workshop.html' | relative_url }}">Workshop</a>
+          </li>
+          <li class="{% if page.url == '/logistics.html' %}active{% endif %}">
+            <a href="{{ 'logistics.html' | relative_url }}">Logistics</a>
+          </li>
+          <li class="{% if page.url == '/working-groups.html' %}active{% endif %}">
+            <a href="{{ 'working-groups.html' | relative_url }}">Working Groups</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <div class="sidebar">
-      {% include toc.html html=content h_max=2 %}
+    {% capture toc_html %}{% include toc.html html=content h_max=2 class="toc-list" %}{% endcapture %}
+    {% assign toc_stripped = toc_html | strip %}
+
+    <div class="site-wrapper">
+      {% if toc_stripped != '' %}
+      <aside class="sidebar sidebar--desktop" aria-label="Table of contents">
+        <div class="sidebar-sticky">
+          <p class="sidebar-heading">On this page</p>
+          {{ toc_html }}
+        </div>
+      </aside>
+
+      <details class="toc-mobile">
+        <summary>On this page</summary>
+        {{ toc_html }}
+      </details>
+      {% endif %}
+
+      <main id="content" class="main-content" role="main">
+        {{ content }}
+
+        <footer class="site-footer">
+          {% if site.github.is_project_page %}
+            <p class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+          {% endif %}
+          <p class="site-footer-credits">Generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </footer>
+      </main>
     </div>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </main>
   </body>
 </html>

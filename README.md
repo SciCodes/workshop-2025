@@ -56,6 +56,7 @@ For full workshop details, please visit [the workshop page](workshop.html).
 
 This workshop is made possible by the generous financial support of the [Alfred P. Sloan Foundation](https://sloan.org/) as well as logistical support from [Arizona State University](https://www.asu.edu).
 
-<a href="https://sloan.org/"><img class="centered" height="100" src="assets/logos/sloan-logo.png"></a>
-
-<a href="https://www.asu.edu/"><img class="centered" height="100" src="assets/logos/asu-logo.png"></a>
+<div class="sponsor-logos" markdown="0">
+  <a class="sponsor-logo" href="https://sloan.org/"><img height="100" src="assets/logos/sloan-logo.png"></a>
+  <a class="sponsor-logo" href="https://www.asu.edu/"><img height="100" src="assets/logos/asu-logo.png"></a>
+</div>
